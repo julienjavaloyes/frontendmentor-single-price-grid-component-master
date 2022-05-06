@@ -162,7 +162,7 @@ main .subscription-price {
     flex: 1 1 0;
   }
 }
-@media only screen and (min-width: 0px) and (max-height: 200px) {
+@media only screen and (min-width: 0px) and (max-height: 400px) {
   main {
     top: 0;
     left: 50%;

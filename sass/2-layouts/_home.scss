@@ -39,7 +39,7 @@ main {
     }
 }
 
-@include m.stop-top-overflow (0px,200px) {
+@include m.stop-top-overflow (0px,400px) {
     main {
         top: 0;
         left: 50%;
