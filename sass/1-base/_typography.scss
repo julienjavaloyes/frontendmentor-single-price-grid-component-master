@@ -1,0 +1,59 @@
+@use  '../0-abstracts/colors' as c;
+//example $fontDisplay: 'Big Shoulders Display', cursive;
+$fontDisplay: 'Karla', sans-serif;
+body {
+    font-family: $fontDisplay;
+}
+
+.hero {
+    .hero-title{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .hero-subtitle {
+        font-weight: 700;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+    .hero-desc {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+}
+.subscription {
+    .subscription-title{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .subscription-price{
+        .subscription-price-val {
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        .subscription-price-text {
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+    }
+    .subscription-desc {
+        font-weight: 400;
+    }
+    button {
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+}
+
+.about {
+    .about-title {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .about-desc {
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+}

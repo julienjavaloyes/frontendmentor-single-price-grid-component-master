@@ -1,0 +1,16 @@
+@use "../0-abstracts/colors" as c;
+
+
+button {
+    background-color: c.$BrightYellow;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 0.5rem gray;
+    &:hover {
+        border: none;
+    }
+}
+

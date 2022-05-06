@@ -1,0 +1,56 @@
+
+@use  '../0-abstracts/colors' as c;
+
+body {
+    background-color:c.$LightGray;
+}
+main {
+    box-shadow: 0px 0px 10px gray;
+}
+.hero {
+    background-color:white;
+    .hero-title{
+        color:c.$Cyan;
+    }
+    .hero-subtitle {
+        color:c.$BrightYellow;
+        padding: 1.5rem 0;
+    }
+    .hero-desc {
+        color: c.$GrayishBlue;
+    }
+}
+.subscription {
+    background-color:c.$Cyan;
+    .subscription-title{
+        color:white;
+    }
+    .subscription-price{
+        .subscription-price-val {
+            padding: 1rem 0;
+            color:white;
+        }
+        .subscription-price-text {
+            color:c.$LightGray;
+            padding-left: 1rem;
+            opacity: 0.7;
+        }
+    }
+    .subscription-desc {
+        color:c.$LightGray;
+        padding-bottom: 1.5rem;
+    }
+}
+
+.about {
+    background-color:c.$Cyan;
+    opacity: 0.9;
+    .about-title {
+        padding-bottom: 1.5rem;
+        color:white;
+    }
+    .about-desc {
+        color:c.$LightGraytransparent;
+        padding-right: 25%;
+    }
+}
